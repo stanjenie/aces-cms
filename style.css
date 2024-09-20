@@ -1,0 +1,119 @@
+html, body {
+	height:100%;
+}
+
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	color: #000000;
+	background-color:#dfdfee;
+}
+body a {
+	color: #9581c0;
+}
+body a:hover {
+	color: #a5365e;
+}
+p {font-size: 16px;}
+h2, h3 {
+	font-family: "Bebas Neue";
+	font-weight: bolder;
+}
+.margin {margin-bottom: 45px;}
+/*.bg-1 { 
+	background-color: hsl(60,9%,96%);
+	margin-top:45px;
+}*/
+.bg-1 {
+	background-color:lavenderblush;
+	color:#292121;
+	margin-top:45px;
+}
+.bg-1 h2 {
+	background-image: linear-gradient(to bottom right, #dfdfee, #9581c0,#a5365e);
+	background-clip: text;
+	color: transparent;
+}
+/*.bg-1 h4 {
+	color: #a5365e;
+}*/
+.bg-2 {
+	background-color:#dfdfee;
+	color:#292121;
+	margin-top:45px;
+}
+.bg-2 h2 {
+	background-image: linear-gradient(to bottom right, #9581c0,#a5365e);
+	background-clip: text;
+	color: transparent;
+}
+.bg-3 { 
+	background-color: #ffffff; /* White */
+	color: #555555;
+}
+.bg-4 { 
+	background-color: #292121; /* Black Gray */
+	color: #fff;
+}
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 0px;
+	background-image: linear-gradient(#9581c0,#a5365e);
+}
+.navbar-member {
+	background-image:linear-gradient(to right,#fabfb2,lightskyblue);
+}
+.navbar-inverse .navbar-nav li a, .navbar-inverse .navbar-brand{
+	color:white; !important;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-nav  li a:hover {
+	color: lavender !important;
+}
+
+.navbar-member .navbar-nav li a, .navbar-member .navbar-brand{
+	color:indigo; !important;
+}
+.navbar-member .navbar-brand:hover, .navbar-member  li a:hover {
+	color: orchid !important;
+}
+
+footer div {
+	padding-left: 20px;
+}
+footer a {
+	color: white;
+}
+.calendar {
+	border: 5px solid #9581c0;
+	filter: sepia(100%) hue-rotate(195deg) saturate(800%);
+}
+#formlist .list-group-item {
+	font-weight:bold;	
+}
+.loginform {
+	border: 5px double black;
+	border-radius:50px;
+	padding:100px 15px 100px 15px;
+	margin-top:75px;
+	margin-bottom:100px;
+	background-image: linear-gradient(to bottom right, lightcoral,mediumorchid);
+	color: white;
+}
+.loginform a {
+color: #dfdfee;
+}
+.loginform .btn-primary {
+background-color:purple;
+border-color:black;
+border-radius:10px;
+padding:5px 10px 5px 10px;
+}
