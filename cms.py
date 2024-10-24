@@ -21,6 +21,7 @@ titles = {
     "form4":"Aces Buddies Feedback (2023-24)",
     "form5":"Aces Alumni Roster",
     "form6":"ADC Registration 2024-25",
+    "register":"Member Registration",
     }
     
 def title(s):
