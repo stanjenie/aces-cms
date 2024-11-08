@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+	session_start();
+	if (!isset($_SESSION['loggedin'])) {
+		header('Location: members.html');
+		exit;
+	}
+?><!DOCTYPE html>
 <html lang="en">
 <head><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -14,9 +20,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Member Registration - Aces Dance Collective</title>
+<title>Aces Buddies Feedback (2023-24) - Aces Dance Collective</title>
 </head>
-<body><nav class="navbar navbar-fixed-top navbar-inverse">
+<body><nav class="navbar navbar-fixed-top navbar-inverse navbar-member">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,50 +34,19 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="calendar.html">EVENTS</a></li>
-				<li><a href="videos-pub.html">VIDEOS</a></li>
-				<li><a href="home.php"><span class="glyphicon glyphicon-lock"></span> MEMBERS</a></li>
+				<li><a href="forms.php">FORMS</a></li>
+				<li><a href="calendar-members.php">CALENDAR</a></li>
+				<li><a href="videos.php">VIDEOS</a></li>
+				<li><a href="home.php">HOME</a></li>
+				<li><a href="logout.php">LOGOUT</a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
 <div class="container-fluid bg-2 text-center">
 	<div class="row">
-		<div class="col-sm-4"></div>
-		<div class="col-sm-4">
-			<div class="panel panel-default text-center loginform">
-				<h4>MEMBER REGISTRATION</h4>
-				<form action="register.php" method="post">
-				    <div class="form-group">
-						<label class="control-label sr-only" for="id">Name</label>
-						<input type="input" name="name" id="name" class="form-control" placeholder="Name"  />
-					</div>
-					<div class="form-group">
-						<label class="control-label sr-only" for="id">Username</label>
-						<input type="input" name="id" id="id" class="form-control" placeholder="Username"  />
-					</div>
-					<div class="form-group">
-						<label class="control-label sr-only" for="pwd">Create a password</label>
-						<input type="password" name="pwd" id="pwd" class="form-control" placeholder="Create a password" />
-					</div>
-					<div class="form-group">
-						<label class="control-label sr-only" for="pwd">Enter password again</label>
-						<input type="password" name="pwd2" id="pwd2" class="form-control" placeholder="Enter password again" />
-					</div>
-					<div class="form-group">
-						<label class="control-label sr-only" for="pwd">Email</label>
-						<input type="email" name="email" id="email" class="form-control" placeholder="Email" />
-					</div>
-					<button type="submit" class="button btn-primary">Register</button>
-					<div style="margin:10px">
-					<!--p>Not a member yet? Please consider <a href="register.html">registering</a>!</p--></div>
-				</form>
-			</div>
-		</div>
-		<div class="col-sm-4">
-		</div>
-	</div>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScARbuHbsAIObi1abRRNxDRCgcL091ghcbUmyrvQd6LYsIuTA/viewform?embedded=true" width="640" height="2350" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>			
+	</div>		
 </div><footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">

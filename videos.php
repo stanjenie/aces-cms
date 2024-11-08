@@ -34,6 +34,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
+				<li><a href="forms.php">FORMS</a></li>
 				<li><a href="calendar-members.php">CALENDAR</a></li>
 				<li><a href="videos.php">VIDEOS</a></li>
 				<li><a href="home.php">HOME</a></li>
@@ -41,7 +42,8 @@
 			</ul>
 		</div>
 	</div>
-</nav><div class="container-fluid bg-1 text-center">
+</nav>
+<div class="container-fluid bg-1 text-center">
 	<div class="row">
 		<div class="col-sm-7">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/JQki4BD_Dms?si=xNSSkYpzPbcytQv_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

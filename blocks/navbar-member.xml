@@ -10,6 +10,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
+				<li><a href="forms.php">FORMS</a></li>
 				<li><a href="calendar-members.php">CALENDAR</a></li>
 				<li><a href="videos.php">VIDEOS</a></li>
 				<li><a href="home.php">HOME</a></li>

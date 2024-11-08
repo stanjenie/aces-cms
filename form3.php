@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+	session_start();
+	if (!isset($_SESSION['loggedin'])) {
+		header('Location: members.html');
+		exit;
+	}
+?><!DOCTYPE html>
 <html lang="en">
 <head><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -16,7 +22,7 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <title>Aces Buddies! - Aces Dance Collective</title>
 </head>
-<body><nav class="navbar navbar-fixed-top navbar-inverse">
+<body><nav class="navbar navbar-fixed-top navbar-inverse navbar-member">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,14 +34,16 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="calendar.html">CALENDAR</a></li>
-				<li><a href="forms.html">FORMS</a></li>
-				<li><a href="home.php"><span class="glyphicon glyphicon-lock"></span> MEMBERS</a></li>
+				<li><a href="forms.php">FORMS</a></li>
+				<li><a href="calendar-members.php">CALENDAR</a></li>
+				<li><a href="videos.php">VIDEOS</a></li>
+				<li><a href="home.php">HOME</a></li>
+				<li><a href="logout.php">LOGOUT</a></li>
 			</ul>
 		</div>
 	</div>
-</nav><div class="container-fluid bg-2 text-center">
+</nav>
+<div class="container-fluid bg-2 text-center">
 	<div class="row">
 		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdIjq8VJ9EkIzhaEG-41mI0CI5XV0UtRyl5lTFrjNw-CUAN6w/viewform?embedded=true" width="640" height="4455" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>			
 	</div>

@@ -34,6 +34,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
+				<li><a href="forms.php">FORMS</a></li>
 				<li><a href="calendar-members.php">CALENDAR</a></li>
 				<li><a href="videos.php">VIDEOS</a></li>
 				<li><a href="home.php">HOME</a></li>
@@ -41,7 +42,8 @@
 			</ul>
 		</div>
 	</div>
-</nav><div class="container-fluid bg-1 text-center">
+</nav>
+<div class="container-fluid bg-1 text-center">
 	<div class="row">
 		<div class="col-sm-4">
 			<img src="aces_logo.PNG" class="img-responsive"></img>

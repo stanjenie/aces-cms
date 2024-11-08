@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+	session_start();
+	if (!isset($_SESSION['loggedin'])) {
+		header('Location: members.html');
+		exit;
+	}
+?><!DOCTYPE html>
 <html lang="en">
 <head><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -14,9 +20,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Aces Alumni Roster - Aces Dance Collective</title>
+<title>2024 Alum Board Apps - Aces Dance Collective</title>
 </head>
-<body><nav class="navbar navbar-fixed-top navbar-inverse">
+<body><nav class="navbar navbar-fixed-top navbar-inverse navbar-member">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,19 +34,20 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="calendar.html">CALENDAR</a></li>
-				<li><a href="forms.html">FORMS</a></li>
-				<li><a href="home.php"><span class="glyphicon glyphicon-lock"></span> MEMBERS</a></li>
+				<li><a href="forms.php">FORMS</a></li>
+				<li><a href="calendar-members.php">CALENDAR</a></li>
+				<li><a href="videos.php">VIDEOS</a></li>
+				<li><a href="home.php">HOME</a></li>
+				<li><a href="logout.php">LOGOUT</a></li>
 			</ul>
 		</div>
 	</div>
-</nav><div class="container-fluid bg-2 text-center">
+</nav>
+<div class="container-fluid bg-2 text-center">
 	<div class="row">
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfM3tN32O5TEcoENzYoVwAVLPbwOb6Guxc6aEN5NBOezfCTHA/viewform?embedded=true" width="640" height="2359" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>			
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrXoJYcumTm0jSgfzywJLFBsiE1N8DrPt3H7Zh5pRCz5WU7A/viewform?embedded=true" width="640" height="4008" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 	</div>
-</div>
-<footer class="container-fluid bg-4">
+</div><footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>
