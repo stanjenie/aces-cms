@@ -5,6 +5,10 @@
 			<div class="panel panel-default text-center loginform">
 				<h4>MEMBER REGISTRATION</h4>
 				<form action="register.php" method="post">
+					 <div class="form-group">
+						<label class="control-label sr-only" for="id">Registration Code</label>
+						<input type="input" name="code" id="code" class="form-control" placeholder="Registration Code"  />
+					</div>
 				    <div class="form-group">
 						<label class="control-label sr-only" for="id">Name</label>
 						<input type="input" name="name" id="name" class="form-control" placeholder="Name"  />
