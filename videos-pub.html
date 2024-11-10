@@ -52,9 +52,9 @@
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>
 			<p>Sign up with your email address to receive news and updates!</p>
-			<form>
+			<form action="subscribe.php" method="post">
 				<div class="input-group" style="max-width:500px">
-					<input type="email" class="form-control" size="50" placeholder="Email Address" required />
+					<input type="email" name="email" class="form-control" size="50" placeholder="Email Address" required />
 					<div class="input-group-btn">
 						<button type="submit" class="btn btn-default">get updates!</button>
 					</div>
