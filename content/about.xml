@@ -1,20 +1,23 @@
 <div class="container-fluid bg-2 text-center about">
 	<div class="row">	
+	    <h1>ABOUT ACES DANCE COLLECTIVE</h1><br />
 		<div class="col-sm-8">
-			<h2>ABOUT ACES DANCE COLLECTIVE</h2><br />
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<h3 class="bold"> WHAT WE DO </h3>
+			<p>ADC aims to span across both location and foundational dance ability to give amateur dancers, choreographers, directors, and producers a space to explore and grow their skillsets in a supportive, community-oriented environment. We welcome people who are just starting their dance journey as well as pro dancers who want to try their hand at producing shows. As masters of building community through dance virtually, members can join no matter where they’re located. </p>
+			<p>Currently, we have an on-season and an off-season centered around our annual show. Each spring, we all travel to Ithaca, NY to perform with our origin team, the Assorted Aces, at their annual showcase. During the on-season, we prepare for our set in this show by choreographing, teaching, and practicing over zoom. We gather in-person in NYC for one weekend to bond and practice our set and we also have 1 day of practice the day before the show to put on the finishing touches before we perform.</p>
+			<p>During the off-season, the summer and fall months between showcase and when we start preparing for the next year’s showcase, we train our dance skills over zoom. This includes hosting virtual workshops and taking classes in-person together locally where we have ADC members. In the future, we hope to set roots in a few main U.S. cities to be able to incorporate more in-person ADC activities and perform at other shows and even competitions.</p>
+			<p>The purpose of all of these initiatives is to grow our member’s dance and creative abilities as well as each of our support systems. Being on a dance team is about so much more than just practicing and performing together. It’s about celebrating each other, using our talents to teach and mentor, building each other’s confidence, and growing as people and artists together. We have members that can teach first-time dancers the fundamentals. We have pro teachers that can guide new choreographers on how to teach dance. And we have amazing and experienced dance directors who can mentor members wanting to produce a set for the very first time. ADC welcomes all kinds of newbie artists to explore and grow their creativity in a supportive environment.</p>
 		</div>
 		<div class="col-sm-4">
 			<img src="tower.jpg" class="img-responsive" />
 		</div>
 	</div>
 	<div class="row">	
+	    <h2>ABOUT OUR FOUNDER: AFSANEH</h2><br />
 		<div class="col-sm-4">
 			<img src="aces_logo.PNG" class="img-responsive" />
 		</div>
 		<div class="col-sm-8">
-			<h2>ABOUT AFSANEH</h2><br />
 			<h4 class="text-left">
 				<b>Role in ADC:</b> Founding President and Dance Coordinator <br />
 				<b>Major/class year:</b> Math Major/2020 <br />
@@ -34,17 +37,14 @@
 		</div>			
 	</div>
 	
-	<div class="row">	
-		<div class="col-sm-12">
-			<h2>BOARD MEMBERS</h2><br />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		</div>
+	<div class="row">
+		<h2>ABOUT OUR BOARD</h2><br />
 	</div>
 	<div class="row">
 		<div class="col-sm-8">
-			<h3>Andrea</h3>
+			<h3 class="bold">Andrea</h3>
 			<h4 class="text-left">
-				<b>Role in ADC:</b> Kitty Titty Chair <br />
+				<b>Role in ADC:</b> Litty Titty Chair <br />
 				<b>Major/class year:</b> Govt 2020 <br />
 				<b>Day job:</b> Engagement Coordinator <br />
 			</h4>
@@ -69,12 +69,13 @@
 			<img src="aces_logo.PNG" class="img-responsive" />
 		</div>
 	</div>
+	<br />
 	<div class="row">
 		<div class="col-sm-4">
 			<img src="aces_logo.PNG" class="img-responsive" />
 		</div>
 		<div class="col-sm-8">
-			<h3>Bryan</h3>
+			<h3 class="bold">Bryan</h3>
 			<h4 class="text-left">
 				<b>Role in ADC:</b> Internals Director<br />
 				<b>Major/class year:</b> Math/CS, 2024 <br />
@@ -97,10 +98,11 @@
 		</div>
 		
 	</div>
+	<br />
 	<div class="row">
 		
 		<div class="col-sm-8">
-			<h3>Deva</h3>
+			<h3 class="bold">Deva</h3>
 			<h4 class="text-left">
 				<b>Role in ADC:</b> Engagement Director<br />
 				<b>Major/class year:</b> CS/2022 <br />
@@ -113,12 +115,13 @@
 			<img src="deva_bio.jpg" class="img-responsive" />
 		</div>
 	</div>
+	<br />
 	<div class="row">
 		<div class="col-sm-4">
 			<img src="aces_logo.PNG" class="img-responsive" />
 		</div>
 		<div class="col-sm-8">
-			<h3>Jade</h3>
+			<h3 class="bold">Jade</h3>
 			<h4 class="text-left">
 				<b>Role in ADC:</b> Timekeeper<br />
 				<b>Major/class year:</b> HBHS 2019 <br />
@@ -136,12 +139,11 @@
 				</p>
 			</div>
 		</div>
-		
 	</div>
+	<br />
 	<div class="row">
-		
 		<div class="col-sm-8">
-			<h3>Mindy</h3>
+			<h3 class="bold">Mindy</h3>
 			<h4 class="text-left">
 				<b>Role in ADC:</b> Boston Chair<br />
 				<b>Major/class year:</b> Computer science/2023 <br />
@@ -163,11 +165,33 @@
 			<img src="aces_logo.PNG" class="img-responsive" />
 		</div>
 	</div>
-	<div class="row"><h3>Nina</h3></div>
-	<div class="row">
-		
+	<br />
+	<div class="col-sm-4">
+			<img src="aces_logo.PNG" class="img-responsive" />
+		</div>
 		<div class="col-sm-8">
-			<h3>Steph</h3>
+			<h3 class="bold">Nina</h3>
+			<h4 class="text-left">
+				<b>Role in ADC:</b> TODO<br />
+				<b>Major/class year:</b> TODO <br />
+				<b>Day job:</b> TODO <br />
+			</h4>
+			<div class="text-left">
+				<p><b>Why do you dance?</b>
+					TODO
+					</p><p>
+					<b>Why did you join Aces?</b>
+					TODO
+					</p><p>
+					<b>Goals/vision for ADC:</b>
+					TODO
+				</p>
+			</div>
+		</div>
+	<br />
+	<div class="row">
+		<div class="col-sm-8">
+			<h3 class="bold">Steph</h3>
 			<h4 class="text-left">
 				<b>Role in ADC:</b> NYC Chair<br />
 				<b>Major/class year:</b> Information Science/2022 <br />
