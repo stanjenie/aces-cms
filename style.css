@@ -3,21 +3,37 @@ html, body {
 }
 
 body {
-	font: 20px Montserrat, sans-serif;
+	font-family: "Inter";
 	line-height: 1.8;
 	color: #000000;
 	background-color:#dfdfee;
 }
+
+.extralight { font-weight: 200; }
+.regular { font-weight: 400; }
+.bold { font-weight: 700; }
+
 body a {
 	color: #9581c0;
 }
 body a:hover {
 	color: #a5365e;
 }
-p {font-size: 16px;}
-h2, h3 {
-	font-family: "Bebas Neue";
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+h1, h2 {
+	font-family: "Major Mono Display";
 	font-weight: bolder;
+	text-align: center;
+}
+h3, h4 {
+    font-family: "Inter";
+}
+
+.extrabig {
+    font-size: 60px;
 }
 .margin {margin-bottom: 45px;}
 /*.bg-1 { 
@@ -122,13 +138,6 @@ padding:5px 10px 5px 10px;
 	margin-top:10px;
 	margin-bottom:10px;
 }
-
-
-
-
-
-
-
 
 
 
