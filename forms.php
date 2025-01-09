@@ -48,12 +48,7 @@
 
 <div class="container-fluid bg-2 text-center">
 	<div class="row">
-		<ul class="list-group" id="formlist">
-			<li class="list-group-item"><a href="form1.php">2024 Alum Board Apps</a></li>
-			<li class="list-group-item"><a href="form2.php">Aces Buddies - Alumni Sign Up</a></li>
-			<li class="list-group-item"><a href="form3.php">Aces Buddies!</a></li>
-			<li class="list-group-item"><a href="form4.php">Aces Buddies Feedback (2023-24)</a></li>
-			<li class="list-group-item"><a href="form5.php">Aces Alumni Roster</a></li>
+		<ul class="list-group" id="formlist">	
 			<li class="list-group-item"><a href="form6.php">ADC Registration 2024-25</a></li>
 		</ul>
 	</div>
