@@ -34,7 +34,8 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="ccorner.php">CHOREO CORNER</a></li>
+				<li><a href="ccorner.php"><span class="glyphicon glyphicon-lock"></span> CHOREO CORNER</a></li>
+				<li><a href="announcements.php">ANNOUNCEMENTS</a></li>
 				<li><a href="forms.php">FORMS</a></li>
 				<li><a href="calendar-members.php">CALENDAR</a></li>
 				<li><a href="videos.php">PIECES</a></li>

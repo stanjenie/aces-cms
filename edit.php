@@ -20,7 +20,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Aces Alumni Roster - Aces Dance Collective</title>
+<title>Aces Dance Collective</title>
 </head>
 <body><nav class="navbar navbar-fixed-top navbar-inverse navbar-member">
 	<div class="container">
@@ -45,12 +45,40 @@
 		</div>
 	</div>
 </nav>
-<div class="container-fluid bg-2 text-center">
+<?php 
+	if ($_SESSION['role'] !== "board" and $_SESSION['role'] !== "choreographer") {
+		header('Location: home.php');
+		exit;
+	}
+	$_SESSION['feed'] = $_POST['target'];
+	?>
+<div class="container-fluid bg-1 text-center">
 	<div class="row">
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfM3tN32O5TEcoENzYoVwAVLPbwOb6Guxc6aEN5NBOezfCTHA/viewform?embedded=true" width="640" height="2359" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>			
+		<div class="col-sm-12">
+			<h4>Thank you for being a member!</h4>
+			<label for="feed">Editing:</label>
+					<input type="text" name="feed" id="feed" size="25" value="<?php echo $_POST['target']; ?>" required readonly />
+			<form action="feedadd.php" method="post">
+				<textarea name="content" id="demo" rows="10" cols="75" style="font-family:monospace">Javascript is required to edit and post.</textarea><br />
+				
+				<div class="input-group" style="max-width:500px align-items-center">
+					<div class="input-group-btn">
+						<button type="submit" class="btn btn-default">Post</button>
+					</div>
+				</div>
+			</form>
+		</div>	
 	</div>
 </div>
-<footer class="container-fluid bg-4">
+<script>
+	var result = null;
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET",document.getElementById("feed").value,false);
+	xhr.send();
+	if (xhr.status == 200) {
+		document.getElementById("demo").innerHTML = xhr.responseText;
+	}
+</script><footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>

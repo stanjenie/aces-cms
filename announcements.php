@@ -20,7 +20,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Aces Alumni Roster - Aces Dance Collective</title>
+<title>Aces Dance Collective</title>
 </head>
 <body><nav class="navbar navbar-fixed-top navbar-inverse navbar-member">
 	<div class="container">
@@ -45,12 +45,49 @@
 		</div>
 	</div>
 </nav>
+
+<div class="container-fluid bg-1 text-center">
+	<div class="row">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6">
+		<form action="edit.php" method="post">
+				<div class="input-group" style="max-width:500px">
+					<input type="text" name="target" class="form-control" size="50" value="announcements.xml" required readonly />
+					<div class="input-group-btn">
+						<button type="submit" class="btn btn-default">Edit</button>
+					</div>
+				</div>
+			</form>	
+		</div>
+		<div class="col-sm-3"></div>
+	</div>
+</div>	
 <div class="container-fluid bg-2 text-center">
 	<div class="row">
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfM3tN32O5TEcoENzYoVwAVLPbwOb6Guxc6aEN5NBOezfCTHA/viewform?embedded=true" width="640" height="2359" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>			
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+	<ul class="list-group" id="formlist">
+			<li class="list-group-item"><div id="demo">Failed to load Javascript.</div></li>
+		</ul>
 	</div>
+	<div class="col-sm-3"></div>
 </div>
-<footer class="container-fluid bg-4">
+<script>
+	exp = document.getElementsByClassName("exp");
+	for (let i = 0; i < exp.length; i++) {
+		exp[i].style.display="none";
+	}
+	function toggle(i) {	
+		if (exp[i].style.display=="none") {exp[i].style.display="block";} else {exp[i].style.display="none";}
+	}
+	var result = null;
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET","announcements.xml",false);
+	xhr.send();
+	if (xhr.status == 200) {
+		document.getElementById("demo").innerHTML = xhr.responseText;
+	}
+</script><footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>
