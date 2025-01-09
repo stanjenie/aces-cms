@@ -20,7 +20,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Forms - Aces Dance Collective</title>
+<title>Aces Dance Collective</title>
 </head>
 <body><nav class="navbar navbar-fixed-top navbar-inverse navbar-member">
 	<div class="container">
@@ -48,16 +48,26 @@
 <div class="container-fluid bg-2 text-center">
 	<div class="row">
 		<ul class="list-group" id="formlist">
-			<li class="list-group-item"><a href="form1.php">2024 Alum Board Apps</a></li>
-			<li class="list-group-item"><a href="form2.php">Aces Buddies - Alumni Sign Up</a></li>
-			<li class="list-group-item"><a href="form3.php">Aces Buddies!</a></li>
-			<li class="list-group-item"><a href="form4.php">Aces Buddies Feedback (2023-24)</a></li>
-			<li class="list-group-item"><a href="form5.php">Aces Alumni Roster</a></li>
-			<li class="list-group-item"><a href="form6.php">ADC Registration 2024-25</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/1H-02-c5b-2OpxgQMT2yD0BunOMX-9Mas/view?usp=drive_link">Finale</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/1H-02-c5b-2OpxgQMT2yD0BunOMX-9Mas/view?usp=drive_link">Finale</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/1Lm6x5XhJRXKcNspj48cIg875Ge7ToV-y/view?usp=drive_link">Girls</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/14mv3dtRjQ3yAfvaYSH8pvFgTBJGt6sCS/view?usp=drive_link">Me Like Yuh</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/1Lg_TaIi1wk163qIj9Un6oQFiwvWfN_sv/view?usp=drive_link">Love Dive</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/1rC_IDTdpL6hTT3rzwO_1EbQmjqRWmhtt/view?usp=drive_link">Opening - Jon</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/17MN3bmcKm0Q7Er9yi0s9HFjMxFtYTVEE/view?usp=drive_link">Opening - Bryan</a></li>
+			<li class="list-group-item"><a href="https://drive.google.com/file/d/1FxhGzVWgnO9BWkfW9ZBKPhkHWvZqTOpV/view?usp=drive_link">Pass That Dutch</a></li>
 		</ul>
 	</div>
 </div>
-<footer class="container-fluid bg-4">
+<script>
+	exp = document.getElementsByClassName("exp");
+	for (let i = 0; i < exp.length; i++) {
+		exp[i].style.display="none";
+	}
+	function toggle(i) {	
+		if (exp[i].style.display=="none") {exp[i].style.display="block";} else {exp[i].style.display="none";}
+	}
+</script><footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>
