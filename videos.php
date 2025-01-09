@@ -43,18 +43,54 @@
 		</div>
 	</div>
 </nav>
-<div class="container-fluid bg-1 text-center">
+
+<div class="container-fluid bg-2 text-center">
 	<div class="row">
-		<div class="col-sm-7">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/JQki4BD_Dms?si=xNSSkYpzPbcytQv_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		</div>
-		<div class="col-sm-5" style="padding-right:50px;">
-			<h4>Members-only videos</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		</div>
+		<ul class="list-group" id="formlist">
+			<li class="list-group-item"><a href="#" onclick="toggle(0)">Opening</a></li>
+			<li class="list-group-item exp" id="opening">
+				<div>
+							<iframe style="display:none" width="560" height="315" src="https://www.youtube.com/embed/JQki4BD_Dms?si=xNSSkYpzPbcytQv_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<a href="https://drive.google.com/file/d/1ONmDy1dOGkLky9_D1GJK_gHlsaMAoyXS/view?usp=drive_link">Alexa_Wonderland.mp3</a><br />
+					<a href="https://docs.google.com/document/d/1u9SuCSFyByH4saauP25-kc3Z0MSuZJv6aSvFqoNdUZE/edit?usp=drive_link">Opening Beg/V1/P1/V2/P2 Tutorial</a><br />
+					<a href="https://docs.google.com/spreadsheets/d/1XkLN9nlo5fqFhP-J3UGi8DRyeY7DKcwUfAX_qFYkWyE/edit?usp=drive_link">OPENING Logistics</a><br />
+				
+				</div>
+				
+				</li>
+			<li class="list-group-item"><a href="#" onclick="toggle(1)">Me Like Yuh</a></li>
+			<li class="list-group-item exp">
+				<div>
+					<a href="https://docs.google.com/spreadsheets/d/1kV89ni3xMp8neyy8ggCTHcArJO7ykDkZHCNUOYveWmA/edit?usp=drive_link">me like yuh logistics</a><br />
+				</div>
+			</li>
+			<li class="list-group-item"><a href="#" onclick="toggle(2)">Love Dive</a></li>
+			<li class="list-group-item exp">
+				<div>
+					<a href="https://docs.google.com/document/d/1WzmoRkJ0s4_IBpZn6ZUCsP__gV7T4xKrPt3TMvqGN3c/edit?usp=drive_link">12/17 Love Dive Meeting Notes</a><br />
+					<a href="https://drive.google.com/file/d/13YgDpl2exUaa_yfW3b3McjN665ZidX2v/view?usp=drive_link">Beginning Moves Mirrored.mov</a><br />
+					<a href="https://drive.google.com/file/d/1B9FFTTEJuyBxsjcWNwGWv3QQRJhGH933/view?usp=drive_link">Love Dive Choreo Vid .mov</a><br />
+				</div>
+			</li>
+			<li class="list-group-item"><a href="#" onclick="toggle(3)">Finale</a></li>
+			<li class="list-group-item exp">
+				<div>
+					<a href="https://drive.google.com/drive/folders/11_DP77xaMxDH-fDUPx69BY_AjmZTAiFh?usp=drive_link">Choreo Vids</a><br />
+					<a href="https://docs.google.com/spreadsheets/d/13GmcyhRWNgvEiN4bQC6JsO2uDdkZKpvif2hVPLg-5IE/edit?usp=drive_link">FINALE - LOGISTICS</a><br />
+				</div>
+			</li>
+		</ul>
 	</div>
 </div>
-<footer class="container-fluid bg-4">
+<script>
+	exp = document.getElementsByClassName("exp");
+	for (let i = 0; i < exp.length; i++) {
+		exp[i].style.display="none";
+	}
+	function toggle(i) {	
+		if (exp[i].style.display=="none") {exp[i].style.display="block";} else {exp[i].style.display="none";}
+	}
+</script><footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>
