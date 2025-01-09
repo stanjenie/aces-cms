@@ -44,11 +44,15 @@
 		</div>
 	</div>
 </nav>
-
+<?php 
+	if ($_SESSION['role'] !== "board" and $_SESSION['role'] !== "choreographer") {
+		header('Location: home.php');
+		exit;
+	}
+	?>
 <div class="container-fluid bg-2 text-center">
 	<div class="row">
 		<ul class="list-group" id="formlist">
-			<li class="list-group-item"><a href="https://drive.google.com/file/d/1H-02-c5b-2OpxgQMT2yD0BunOMX-9Mas/view?usp=drive_link">Finale</a></li>
 			<li class="list-group-item"><a href="https://drive.google.com/file/d/1H-02-c5b-2OpxgQMT2yD0BunOMX-9Mas/view?usp=drive_link">Finale</a></li>
 			<li class="list-group-item"><a href="https://drive.google.com/file/d/1Lm6x5XhJRXKcNspj48cIg875Ge7ToV-y/view?usp=drive_link">Girls</a></li>
 			<li class="list-group-item"><a href="https://drive.google.com/file/d/14mv3dtRjQ3yAfvaYSH8pvFgTBJGt6sCS/view?usp=drive_link">Me Like Yuh</a></li>
