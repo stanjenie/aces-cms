@@ -4,10 +4,20 @@
 			<img src="aces_logo.PNG" class="img-responsive"></img>
 		</div>
 		<div class="col-sm-8">
-			<h2>ACES DANCE COLLECTIVE (MEMBERS ONLY)</h2><br />
-			<h4>Thank you for being a member!</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<br><a href="about.html"><button class="btn btn-default btn-lg">About Aces</button></a>
+			<h1>ACES DANCE COLLECTIVE</h1>
+			<h2>(MEMBERS ONLY)</h2>
+			<h4>Thank you for being a member!</h4><br />
+			<h3 class="bold">MISSION STATEMENT</h3>
+			<p>Aces Dance Collective (ADC) bridges geographic boundaries and dance skills as an incubator for amateur dances, choreographers, directors, and produces to explore and grow their creative skill sets. Through our inclusive and uplifting community, we build confidence for novice artists.</p><br />
+			<p>Here's the best way to use this website:</p>
+			<ul>
+			    <li><b>ANNOUNCEMENTS</b> - check this page regularly! Afsaneh will update it every week with everything you need to know/do for showcase!</li>
+			    <li><b>PIECES</b> - anything your choreograph has for you (tutorial/choreo vids, feedback notes, etc)</li>
+			    <li><b>FORMS</b> - forms you need to fill out + their due dates</li>
+			    <li><b>CALENDAR</b> - this has all ADC practice times with zoom link</li>
+			    <li><b>CHOREO CORNER</b> - to-do list and announcements for piece leaders</li>
+			</ul>
+			<br><a href="about.php"><button class="btn btn-default btn-lg">About Aces</button></a>
 		</div>	
 	</div>
 </div>

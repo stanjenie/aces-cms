@@ -102,6 +102,8 @@ h3, h4 {
 	color: orchid !important;
 }
 
+ul { text-align: left;}
+
 footer div {
 	padding-left: 20px;
 }
