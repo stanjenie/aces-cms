@@ -47,15 +47,8 @@
 </nav>
 <div class="container-fluid bg-1 text-center">
 	<div class="row">
-		<div class="col-sm-3" style="padding-right:50px;">
-		</div>
-		<div class="col-sm-6">
-		    			<h4>Members-only calendar</h4>
-
+		    <h4>Members-only calendar</h4>
 			<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=acesdancecollective%40gmail.com&ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-		</div>
-		<div class="col-sm-3" style="padding-right:50px;">
-		</div>
 	</div>
 </div>
 <footer class="container-fluid bg-4">

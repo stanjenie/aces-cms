@@ -45,54 +45,104 @@
 		</div>
 	</div>
 </nav>
-
 <div class="container-fluid bg-2 text-center">
 	<div class="row">
-		<ul class="list-group" id="formlist">
-			<li class="list-group-item"><a href="#" onclick="toggle(0)">Opening</a></li>
-			<li class="list-group-item exp" id="opening">
-				<div>
-							<iframe style="display:none" width="560" height="315" src="https://www.youtube.com/embed/JQki4BD_Dms?si=xNSSkYpzPbcytQv_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-					<a href="https://drive.google.com/file/d/1ONmDy1dOGkLky9_D1GJK_gHlsaMAoyXS/view?usp=drive_link">Alexa_Wonderland.mp3</a><br />
-					<a href="https://docs.google.com/document/d/1u9SuCSFyByH4saauP25-kc3Z0MSuZJv6aSvFqoNdUZE/edit?usp=drive_link">Opening Beg/V1/P1/V2/P2 Tutorial</a><br />
-					<a href="https://docs.google.com/spreadsheets/d/1XkLN9nlo5fqFhP-J3UGi8DRyeY7DKcwUfAX_qFYkWyE/edit?usp=drive_link">OPENING Logistics</a><br />
-				
-				</div>
-				
-				</li>
-			<li class="list-group-item"><a href="#" onclick="toggle(1)">Me Like Yuh</a></li>
-			<li class="list-group-item exp">
-				<div>
-					<a href="https://docs.google.com/spreadsheets/d/1kV89ni3xMp8neyy8ggCTHcArJO7ykDkZHCNUOYveWmA/edit?usp=drive_link">me like yuh logistics</a><br />
-				</div>
-			</li>
-			<li class="list-group-item"><a href="#" onclick="toggle(2)">Love Dive</a></li>
-			<li class="list-group-item exp">
-				<div>
-					<a href="https://docs.google.com/document/d/1WzmoRkJ0s4_IBpZn6ZUCsP__gV7T4xKrPt3TMvqGN3c/edit?usp=drive_link">12/17 Love Dive Meeting Notes</a><br />
-					<a href="https://drive.google.com/file/d/13YgDpl2exUaa_yfW3b3McjN665ZidX2v/view?usp=drive_link">Beginning Moves Mirrored.mov</a><br />
-					<a href="https://drive.google.com/file/d/1B9FFTTEJuyBxsjcWNwGWv3QQRJhGH933/view?usp=drive_link">Love Dive Choreo Vid .mov</a><br />
-				</div>
-			</li>
-			<li class="list-group-item"><a href="#" onclick="toggle(3)">Finale</a></li>
-			<li class="list-group-item exp">
-				<div>
-					<a href="https://drive.google.com/drive/folders/11_DP77xaMxDH-fDUPx69BY_AjmZTAiFh?usp=drive_link">Choreo Vids</a><br />
-					<a href="https://docs.google.com/spreadsheets/d/13GmcyhRWNgvEiN4bQC6JsO2uDdkZKpvif2hVPLg-5IE/edit?usp=drive_link">FINALE - LOGISTICS</a><br />
-				</div>
-			</li>
-		</ul>
+	    <h2>2025 Showcase Pieces</h2>
+	    <h4>Choreo videos, logistic sheets, music cuts</h4>
+	    </br>
+	    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#adcopening">Opening</a>
+            </h4>
+          </div>
+          <div id="adcopening" class="panel-collapse collapse">
+            <div class="panel-body">
+				<a href="https://docs.google.com/spreadsheets/d/1XkLN9nlo5fqFhP-J3UGi8DRyeY7DKcwUfAX_qFYkWyE/edit?usp=drive_link" target="_blank">Opening Logistics</a><br />
+				<a href="https://drive.google.com/file/d/1ONmDy1dOGkLky9_D1GJK_gHlsaMAoyXS/view?usp=drive_link" target="_blank">Alexa_Wonderland Music Cut</a><br />
+				<a href="https://docs.google.com/document/d/1tM6OSN0oIGDYb1YWq09ZJuF8fwxwzWsyAX9xoCJY0tw/edit?usp=drive_link" target="_blank">Opening Chorus Tutorials</a><br />
+				<a href="https://docs.google.com/document/d/1u9SuCSFyByH4saauP25-kc3Z0MSuZJv6aSvFqoNdUZE/edit?usp=drive_link" target="_blank">Individual Tutorials</a><br />	
+				<a href="https://drive.google.com/drive/folders/1uU6lO652Bp710ruO5GB555hFfoLARYdO?usp=drive_link" target="_blank">Video Submissions</a><br />
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#melikeyuh">Me Like Yuh</a>
+            </h4>
+          </div>
+          <div id="melikeyuh" class="panel-collapse collapse">
+            <div class="panel-body">
+                <a href="https://docs.google.com/spreadsheets/d/1kV89ni3xMp8neyy8ggCTHcArJO7ykDkZHCNUOYveWmA/edit?usp=drive_link" target="_blank">Me Like Yuh Logistics</a><br />
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#lovedive">Love Dive</a>
+            </h4>
+          </div>
+          <div id="lovedive" class="panel-collapse collapse">
+            <div class="panel-body">
+                <a href="https://docs.google.com/document/d/1WzmoRkJ0s4_IBpZn6ZUCsP__gV7T4xKrPt3TMvqGN3c/edit?usp=drive_link" target="_blank">12/17 Love Dive Meeting Notes</a><br />
+				<a href="https://drive.google.com/file/d/13YgDpl2exUaa_yfW3b3McjN665ZidX2v/view?usp=drive_link" target="_blank">Beginning Moves Mirrored</a><br />
+				<a href="https://drive.google.com/file/d/1B9FFTTEJuyBxsjcWNwGWv3QQRJhGH933/view?usp=drive_link" target="_blank">Love Dive Choreo Video</a><br />
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#girls">Girls</a>
+            </h4>
+          </div>
+          <div id="girls" class="panel-collapse collapse">
+            <div class="panel-body">
+                <a href="https://drive.google.com/file/d/1RaOwIIebdIo5w4l6mWxA7NjSPhrUCRLX/view?usp=drive_link" target="_blank">Practice 1 Recording</a><br />
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#passthatdutch">Pass That Dutch</a>
+            </h4>
+          </div>
+          <div id="passthatdutch" class="panel-collapse collapse">
+            <div class="panel-body">
+                <a href="https://docs.google.com/spreadsheets/d/1EomFiiVE1VCS65ggBuBmml8U4YJPOkCu8Sg_nn5fVw0/edit?usp=drive_link" target="_blank">Pass That Dutch Logistics Spreadsheet</a><br />
+                <a href="https://drive.google.com/file/d/1_ejgIsLN1Ax4hy0_ZS7kHXfEsiErmubf/view?usp=drive_link" target="_blank">Pass That Dutch 0.75x Speed</a><br />
+                <a href="https://drive.google.com/file/d/1nJR10GemX-3LDJXhAmOWEpDPaMqwT7LV/view?usp=drive_link" target="_blank">Pass That Dutch 1x Speed</a><br />
+                <a href="https://drive.google.com/drive/folders/1Km41CvIn6hKRHIY4HcJo31KPlfN8OBPl?usp=drive_link" target="_blank">Demo Videos</a><br />
+                <a href="https://drive.google.com/drive/folders/1zJwADktQ_VV6qAJakIbWGm5KAd3rU-My?usp=drive_link" target="_blank">Video Submissions</a><br />
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#finale">Finale</a>
+            </h4>
+          </div>
+          <div id="finale" class="panel-collapse collapse">
+            <div class="panel-body">
+				<a href="https://docs.google.com/spreadsheets/d/13GmcyhRWNgvEiN4bQC6JsO2uDdkZKpvif2hVPLg-5IE/edit?usp=drive_link" target="_blank">Finale Logistics Spreadsheet</a><br />
+				<a href="https://www.youtube.com/playlist?list=PL00RPn5p-A_tVSqYa5tjYCm_AabMvkhY5" target="_blank">General Tutorial Videos</a><br />
+				<a href="https://drive.google.com/drive/folders/11_DP77xaMxDH-fDUPx69BY_AjmZTAiFh?usp=drive_link" target="_blank">Individual Choreo Videos</a><br />
+            </div>
+          </div>
+        </div>
 	</div>
 </div>
-<script>
-	exp = document.getElementsByClassName("exp");
-	for (let i = 0; i < exp.length; i++) {
-		exp[i].style.display="none";
-	}
-	function toggle(i) {	
-		if (exp[i].style.display=="none") {exp[i].style.display="block";} else {exp[i].style.display="none";}
-	}
-</script><footer class="container-fluid bg-4">
+<footer class="container-fluid bg-4">
 	<div class="row">
 		<div class="col-sm-8">
 			<h3>JOIN OUR MAILING LIST?</h3>
