@@ -114,9 +114,10 @@ footer a {
 	border: 5px solid #9581c0;
 	filter: sepia(100%) hue-rotate(195deg) saturate(800%);
 }
+/*
 #formlist .list-group-item {
 	font-weight:bold;	
-}
+}*/
 .loginform {
 	border: 5px double black;
 	border-radius:50px;

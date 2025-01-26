@@ -50,6 +50,7 @@
 	<div class="row">
 		<ul class="list-group" id="formlist">	
 			<li class="list-group-item"><a href="form6.php">ADC Registration 2024-25</a></li>
+			<li class="list-group-item"><a href="form7.php">ADC Merch Order Form</a></li>
 		</ul>
 	</div>
 </div>
